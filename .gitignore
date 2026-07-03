@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+credentials.json
+config.py
+poll_data.json
+*.pyc
+.DS_Store
