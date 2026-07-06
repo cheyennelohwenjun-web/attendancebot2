@@ -62,5 +62,5 @@ if __name__ == "__main__":
 
     print("Test completed.")
     print()
-
+    weekly_attendance()
     scheduler.start()

@@ -15,6 +15,8 @@ credentials = Credentials.from_service_account_file(
 
 client = gspread.authorize(credentials)
 
+print("GOOGLE_SHEET_ID =", GOOGLE_SHEET_ID)
+
 spreadsheet = client.open_by_key(GOOGLE_SHEET_ID)
 
 worksheet = spreadsheet.worksheet("attendance")
